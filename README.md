@@ -83,6 +83,18 @@ To create a portable Windows executable:
 ```
 python -m PyInstaller --noconfirm --clean --onefile --windowed --name "BioAltitudeDefender" --icon "icon.png" --exclude-module cupy --collect-all shap --collect-all sklearn --collect-all scipy --collect-all joblib --collect-all numba --collect-all llvmlite --collect-all reportlab --hidden-import "src.smart_converter" --hidden-import "src.risk_model" --hidden-import "src.config_loader" --add-data "config.yaml;." --add-data "icon.png;." --add-data "models/risk_model.pkl;models" --add-data "models/feature_names.json;models" --add-data "data/processed/Patient_National_ABDM.csv;data/processed" --add-data "data/processed/Patient_International_OMOP.csv;data/processed" --add-data "data/processed/Patient_Vitals_TimeSeries.csv;data/processed" --add-data "data/processed/Patient_Genomic_Profile.csv;data/processed" main.py
 ```
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/492a500d-9aed-4661-8205-058a16b98e3b" />
+<img width="1600" height="821" alt="BioAltitude Defender v0 1 0 02-11-2026 02_49_43 PM" src="https://github.com/user-attachments/assets/80230725-2d3c-4660-bb27-445c2b88da4e" />
+<img width="1600" height="821" alt="BioAltitude Defender v0 1 0 02-11-2026 02_49_32 PM" src="https://github.com/user-attachments/assets/b3489ca7-0067-4da1-b184-cb43198b70cd" />
+<img width="1600" height="821" alt="BioAltitude Defender v0 1 0 02-11-2026 02_49_32 PM" src="https://github.com/user-attachments/assets/acfcc334-9efd-4c26-a8b6-6c857a124145" />
+<img width="1600" height="821" alt="BioAltitude Defender v0 1 0 02-11-2026 02_49_43 PM" src="https://github.com/user-attachments/assets/9dd62633-9948-45b4-998d-048d92817a41" />
+<img width="1600" height="821" alt="BioAltitude Defender v0 1 0 02-11-2026 02_51_51 PM" src="https://github.com/user-attachments/assets/0e019ed1-852c-424b-91ee-2ff31a224fa5" />
+<img width="1600" height="821" alt="BioAltitude Defender v0 1 0 02-11-2026 02_50_38 PM" src="https://github.com/user-attachments/assets/345f3d84-9bd3-46b6-a9b0-1388067ef38d" />
+<img width="500" height="406" alt="BioAltitude Defender v0 1 0 02-11-2026 02_51_59 PM" src="https://github.com/user-attachments/assets/445f4749-5d4a-4915-b8fe-876779f43e96" />
+<img width="1600" height="850" alt="report_UNKNOWN pdf - Person 1 - Microsoft​ Edge 02-11-2026 03_01_22 PM" src="https://github.com/user-attachments/assets/57cca0c1-4970-49f3-8389-4e1a8a69ff4e" />
+<img width="782" height="553" alt="BioAltitude Defender v0 1 0 02-11-2026 02_57_34 PM" src="https://github.com/user-attachments/assets/e8818006-fe6a-4e3a-9af2-f0f65e360f05" />
+<img width="782" height="553" alt="BioAltitude Defender v0 1 0 02-11-2026 02_55_52 PM" src="https://github.com/user-attachments/assets/afc89880-630f-44f4-988a-1020fb5f5527" />
+
 ⚠️ Disclaimer
 This software is a Research Prototype and is NOT a clinically validated medical device. The AI models are trained on synthetic and public research datasets. Do not use this tool for real-world medical diagnosis or treatment without proper validation from regulatory bodies (such as CDSCO or FDA) and collaboration with medical institutions like DRDO-DIPAS or ICMR.
 ```

@@ -1,5 +1,5 @@
 # BioAltitude-Defender
-AI-Powered HAPE/HACE Risk Assessment &amp; Genomic Analysis
+An offline, Explainable AI (XAI) desktop application for early detection of High-Altitude Pulmonary Edema (HAPE) and Cerebral Edema (HACE) using Physiological & Genomic data. Designed for DRDO Defence Medical Applications.
 # 🏔️ BioAltitude Defender (AltMedix AI)
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
